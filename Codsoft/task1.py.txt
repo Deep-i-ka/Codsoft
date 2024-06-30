@@ -1,0 +1,17 @@
+a=int(input("enter first no."))
+b=int(input("enter second no."))
+operator=input("please press '+'or '-' or '*' or '/' or '//' or '**' or '%'")
+if operator=="+":
+    print(a+b)
+elif operator=="-":
+    print(a-b)
+elif operator=="*":
+    print(a*b)
+elif operator=="/":
+    print(a/b)
+elif operator=="//":
+    print(a//b)
+elif operator=="**":
+    print(a**b)
+else:
+    print(a%b)
